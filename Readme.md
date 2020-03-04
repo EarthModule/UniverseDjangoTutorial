@@ -21,4 +21,7 @@ First create superuser with
 ```bash
 python manage.py createsuperuser
 ```
-Then you can access the admin panel from localhost:8000/admin
+Then you can access the admin panel by default from localhost:8000/admin
+
+## Accessing api-root
+API-root can be found by default in localhost:8000/universe
