@@ -37,3 +37,6 @@ class StarSerializer(serializers.ModelSerializer):
     class Meta:
         model = Star
         fields = "__all__"
+
+    def create(self, validated_data):
+        self.is_valid()
